@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalaxyWash - Jouw Auto, Onze Zorg</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: url('Audi_rs6_avant_2019_Motion_Bokeh_Front_Grey_Estate_588355_1280x853.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            min-height: 300px; /* Verhoog de minimum hoogte voor meer zichtbaarheid van de afbeelding */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 50px; /* Meer ruimte boven de titel */
+        }
+
+        header h1 {
+            margin-top: 20px; /* Titel hoger geplaatst */
+            padding: 20px 0;
+            font-size: 2.5em; /* Grotere lettergrootte voor de titel */
+        }
+
+        header nav {
+            text-align: center;
+            margin-top: 20px; /* Ruimte tussen de titel en de navigatie-items */
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+
+        header ul {
+            padding: 0;
+            list-style: none;
+            display: inline-block;
+        }
+
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+
+        header .highlight, header .current a {
+            color: #77a8d1;
+            font-weight: bold;
+        }
+
+        header a:hover {
+            color: #77a8d1;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: #77a8d1 1px solid;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #home {
+            text-align: center;
+            background: #e2e2e2;
+            padding: 80px 0;
+        }
+
+        #services, #pricing, #contact, #help {
+            background: #f4f4f4;
+            padding: 20px 0;
+        }
+
+        #pricing table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+
+        #pricing table, #pricing th, #pricing td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        #pricing th {
+            background: #333;
+            color: #fff;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GalaxyWash</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Diensten</a></li>
+                    <li><a href="#pricing">Prijzen</a></li>
+                    <li><a href="mailto:zakelijkehelpservice@gmail.com?subject=Afspraak%20aanvraag%20GalaxyWash">Afspraak maken</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welkom bij GalaxyWash</h2>
+            <p>Uw auto verdient het beste. Bij GalaxyWash zorgen wij voor een grondige en professionele schoonmaak van uw voertuig.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Onze Diensten</h2>
+            <ul>
+                <li>Velgen</li>
+                <li>Ramen</li>
+                <li>Volledige wasbeurt</li>
+                <li>Komt binnenkort</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Prijzen en Tijden</h2>
+            <table>
+                <tr>
+                    <th>Dienst</th>
+                    <th>Prijs</th>
+                    <th>Werk Tijden</th>
+                </tr>
+                <tr>
+                    <td>Alleen de velgen</td>
+                    <td>€5</td>
+                    <td>30 tot 90 minuten (afhankelijk van de vuilheid)</td>
+                </tr>
+                <tr>
+                    <td>Alleen de ramen</td>
+                    <td>€5</td>
+                    <td>10 tot 70 minuten</td>
+                </tr>
+                <tr>
+                    <td>Volledige wasbeurt (alleen buitenkant)</td>
+                    <td>€15</td>
+                    <td>70 tot 200 minuten</td>
+                </tr>
+                <tr>
+                    <td>Komt binnenkort</td>
+                    <td>€0</td>
+                    <td>0 minuten</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="help">
+        <div class="container">
+            <p>Voor vragen of hulp, stuur een e-mail naar: zakelijkehelpservice@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GalaxyWash. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+</body>
+</html>
